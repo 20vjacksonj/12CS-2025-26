@@ -1,0 +1,37 @@
+{
+	"movies": 
+	[ 
+		{
+			"movie": "Eternals",
+			"duration": 120,
+			"opening_times": ["09:00","11:00","12:00"],
+			"price": 8.99,
+			"rating": "12",
+			"availability": [5,10,15]
+		},
+		{
+			"movie": "Lion King",
+			"duration": 220,
+			"opening_times": ["13:00","14:00","15:00"],
+			"price": 8.99,
+			"rating":"12",
+			"availability": [0,0,20]
+		},
+		{
+			"movie": "Pitbull",
+			"duration": 205,
+			"opening_times": ["13:00","14:00","15:00"],
+			"price": 5.99,
+			"rating":"18",
+			"availability": [11,12,13]
+		},
+		{
+			"movie": "Peppa Pig (Scottish Version)",
+			"duration": 110,
+			"opening_times": ["21:00","22:00","23:00"],
+			"price": 8.99,
+			"rating":"18",
+			"availability": [23,0,0]
+		}
+	]
+}
