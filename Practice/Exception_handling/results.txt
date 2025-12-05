@@ -1,0 +1,4 @@
+"student name", "subject", "score"
+"james", "maths", "a"
+"walton", "biology", "b"
+"harry", "english", "c"

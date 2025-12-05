@@ -66,24 +66,24 @@ while True:
 
     if name in "xX":
         print("")
-        break
+        break       #exit out loop
 
     else:
 
-        try:
+        try:        #validation
             age = int(input("Enter age of this student: "))
         except ValueError:
             print("Need a number")
         
-        if age < 5 or age > 20:
+        if age < 5 or age > 20:     #validation
             print("Need to be between 5 and 20")
             print("")
             continue
 
         else:
             print("")
-            new_student = student(name,age)
-            students.append(new_student)
+            new_student = student(name,age)     #create object using name and age as parameters
+            students.append(new_student)        #appending to list of students
 #endwhile
 
 for student in students:

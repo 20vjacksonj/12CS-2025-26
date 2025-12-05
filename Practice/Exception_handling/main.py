@@ -37,7 +37,7 @@ while not exit:
 open the file for reading
 '''
 
-myfile = open("H:/github/12CS-2025-26/Exception_handling/results.txt", "r")
+myfile = open("H:/github/12CS-2025-26/Practice/Exception_handling/results.txt", "r")
 
 exit = False
 while not exit:
@@ -51,3 +51,5 @@ while not exit:
     #endif
 
 #endwhile
+
+
