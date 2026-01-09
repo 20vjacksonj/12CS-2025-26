@@ -155,3 +155,12 @@ This problem teaches:
 The Spotify library problem is an excellent introduction to working with **structured data** in arrays. By using a 2D array where each row represents a song and each column represents an attribute, we can efficiently store and manipulate collections of related information. This mirrors how real databases and music streaming services organize their data, making it both educationally valuable and practically relevant.
 
 The key is maintaining **consistency** in how records are structured and being mindful of **data types** when processing user input.
+
+
+
+
+## My Notes
+* Record - a collection of related information thats well organised
+* Records have mulitple fields
+* Implement a record in python:
+    * 
