@@ -162,5 +162,5 @@ The key is maintaining **consistency** in how records are structured and being m
 ## My Notes
 * Record - a collection of related information thats well organised
 * Records have mulitple fields
-* Implement a record in python:
-    * 
+* Implement a record in python
+*  

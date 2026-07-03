@@ -7,6 +7,13 @@ student_names = [None]*10
 
 def hash_name(name):
 
+    '''Use the name to make hash key, 
+    - hash total is the total ascii number value 
+    - remainder of length of list to find position
+    - 
+    
+    
+    '''
     hash_total = 0
     for char in name:
         hash_total += ord(char)
@@ -32,7 +39,7 @@ def hash_name(name):
             else:
                 hash_position += 1
             #end if
-            num_attempts -=1
+            num_attempts -= 1
 
         #end if 
 

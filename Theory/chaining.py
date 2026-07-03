@@ -30,7 +30,7 @@ def rehash(hash_row, name):
     if not placed:
         print("Overflow is full")
     else:
-        print("stdent placed in overflow")
+        print("student placed in overflow")
     #end if
 
 #end def
