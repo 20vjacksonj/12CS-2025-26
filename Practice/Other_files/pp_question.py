@@ -22,16 +22,21 @@ function getLevel()
 # declare 2d array / lists to hold grid position 
 # declare classes
 
-grid_positions = [
-    
-]
+grid_positions = [None]
 
-for i in range(10):
-    grid_positions.append([None])
-    for k in range(20):
-        grid_positions.append([None])
+def guessGrid(board):
+    x = int(input("Enter X: "))
+    y = int(input("Enter Y: "))
 
-print(grid_positions)
+    if board.grid[x][y].getLevel() == "":
+        print("No treasure")
+    else:
+        print(board.grid[x][y].getLevel())
+    #endif
+#enddef
+
+
+
 
 class treasure:
 
@@ -52,3 +57,34 @@ class treasure:
     #enddef
 
 #endclass
+
+
+
+class board:
+
+    def __init__(self, grid):
+        self.grid = grid
+        
+        for row in range(0,10):
+            for column in range(0,20):
+                grid[row][column] = treasure(value = -1, level = "")
+            #endfor
+        #endfor
+
+    #enddef
+
+    def getGridItem(self,x,y):
+        pass
+    #enddef
+
+    def setGridItem(self,x,y,tresureToInsert):
+        pass
+    #enddef
+
+#endclass
+
+
+my_board = board(grid_positions)
+print(my_board.grid[0][0].getLevel())
+
+

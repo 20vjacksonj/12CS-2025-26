@@ -90,7 +90,7 @@ def menu():
             run = False
     return choice
 
-def main():
+def main(choice):
     menu()
     if choice == "1":
         check_availability()
