@@ -22,7 +22,9 @@ function getLevel()
 # declare 2d array / lists to hold grid position 
 # declare classes
 
-grid_positions = [None]
+grid_positions = [
+    [[None]*20]*10
+]
 
 def guessGrid(board):
     x = int(input("Enter X: "))
