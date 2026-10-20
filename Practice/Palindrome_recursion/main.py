@@ -8,7 +8,6 @@ class Palindrome:
     def check_palindrome(self):
 
         self.ask = input("Enter string: ")
-        self.ask = self.ask.strip(" ")
 
 
         for char in self.ask:       #APPENDS ALL CHARACTERS IN INPUT TO A LIST
@@ -24,23 +23,17 @@ class Palindrome:
 
 
         if self.ask_list == self.reverse_list:      #COMPARES INPUT LIST TO REVERSE LIST 
-            print(f"{self.ask} is a palindrome")
+            print(f"{self.ask} is a palindrome\n")
         else:
-            print(f"{self.ask} is not a palindrome")
+            print(f"{self.ask} is not a palindrome\n")
         #endif
 
     #enddef
 
 #endclass
 
-        
-       
-            
-
-
-
-        
 
 if __name__ == "__main__":
     app = Palindrome()
-    app.check_palindrome()
+    while True:
+        app.check_palindrome()
