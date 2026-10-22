@@ -35,5 +35,4 @@ class Palindrome:
 
 if __name__ == "__main__":
     app = Palindrome()
-    while True:
-        app.check_palindrome()
+    app.check_palindrome()
