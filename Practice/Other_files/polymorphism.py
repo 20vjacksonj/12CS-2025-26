@@ -13,3 +13,5 @@ class Rabbit(Animal):
     #enddef
 #endclass
 
+
+#polymorphism is the ability to change attributes within an instance of a class, can have differnet behaviours eg furless rabbit maybe
